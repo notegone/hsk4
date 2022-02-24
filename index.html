@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>HSK4 random char</title>
+  </head>
+  <body>
+
+
+	<div class="container">
+
+		
+		<div id="myRandomDiv" class="container-fluid" style="font-size:100px">
+		</div>
+
+		<div id="myRandomPinyinDiv" class="container-fluid" style="font-size:50px">
+		</div>
+
+		<div id="myRandomDefDiv" class="container-fluid">
+
+		</div>
+		<br>
+		<a id="myButton" class="btn btn-primary" href="#" role="button">HSK4</a>
+	</div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+	
+	
+	<script type="text/javascript" charset="utf-8">
+
+
+	var hsk4 = ['松', '破', '础', '林', '推', '烟', '硕', '趟', '母', '烦', '度', '毕', '座', '际', '毛', '降', '硬', '确', '限', '险', '握', '陪', '精', '随', '至', '困', '围', '怀', '态', '激', '怜', '瓶', '性', '染', '距', '匙', '恐', '与', '柿', '专', '区', '丢', '严', '麻', '孙', '民', '丰', '恼', '孤', '丽', '悉', '言', '默', '博', '集', '卡', '之', '悔', '弃', '弄', '乒', '乓', '永', '乘', '印', '危', '式', '即', '却', '引', '圆', '厉', '乱', '压', '厌', '汗', '观', '规', '江', '航', '污', '厚', '汤', '原', '弹', '争', '紧', '互', '亚', '甚', '圾', '熟', '址', '彩', '沙', '由', '申', '标', '坚', '艺', '往', '撞', '律', '留', '垃', '格', '惊', '案', '宽', '惜', '寄', '密', '富', '寒', '交', '疑', '桥', '察', '鼓', '虎', '及', '亲', '反', '虑', '桶', '亿', '取', '受', '仅', '导', '仍', '另', '社', '仔', '油', '台', '叶', '播', '代', '燥', '齐', '神', '价', '任', '微', '份', '泪', '忆', '倍', '禁', '泼', '擦', '龄', '福', '志', '苦', '值', '忽', '假', '梦', '愉', '基', '停', '将', '躺', '尊', '偶', '尔', '尝', '各', '合', '傅', '尤', '程', '稍', '森', '棵', '尽', '否', '慕', '众', '优', '吵', '吸', '传', '伤', '展', '秀', '适', '洋', '呀', '估', '科', '逐', '父', '逛', '速', '造', '积', '洲', '何', '范', '活', '味', '流', '支', '命', '究', '穷', '济', '收', '改', '遍', '窄', '效', '窗', '浪', '例', '傲', '海', '散', '堵', '供', '警', '消', '邀', '敲', '整', '塑', '植', '料', '填', '懒', '墙', '增', '咱', '咳', '咸', '品', '软', '针', '润', '概', '竞', '竟', '章', '童', '保', '输', '计', '断', '讨', '俩', '辛', '修', '狮', '许', '论', '访', '证', '评', '族', '获', '部', '译', '深', '约', '纪', '诚', '无', '既', '详', '页', '误', '顺', '顿', '皮', '组', '细', '织', '预', '钢', '钥', '绝', '允', '光', '士', '继', '克', '免', '盐', '盒', '续', '辣', '入', '全', '戚', '达', '具', '养', '耐', '戴', '户', '内', '连', '农', '扔', '符', '售', '笨', '扩', '聊', '猜', '职', '扬', '扮', '扰', '联', '聘', '批', '渐', '猪', '技', '猴', '谅', '谈', '温', '谊', '折', '映', '食', '处', '签', '肚', '够', '省', '况', '失', '湿', '酸', '凉', '象', '景', '减', '缺', '著', '奋', '醒', '暂', '奖', '暑', '貌', '暖', '暗', '键', '抬', '抱', '抽', '肤', '肥', '拉', '肯', '美', '拒', '管', '招', '羞', '括', '血', '拾', '篇', '巧', '巾', '嗽', '袋', '释', '量', '金', '袜', '刀', '切', '羡', '群', '划', '饮', '列', '则', '羽', '饺', '饼', '判', '利', '替', '制', '首', '持', '挂', '指', '按', '翻', '剧', '剩', '币', '帅', '脏', '歉', '挺', '闹', '止', '此', '功', '脱', '脾', '死', '嘴', '琴', '授', '掉', '掌', '并', '幸', '漫', '排', '幽', '广', '负', '序', '责', '败', '货', '术', '质', '膏', '底', '购', '费', '贺', '杂', '资', '粗', '码', '材', '村', '励', '骄', '赚', '研', '验', '勇', '赢', '骗', '阅']
+    var hsk4_pinyin = ['sōng', 'pò', 'chǔ', 'lín', 'tūi', 'yān', 'shuò', 'tàng', 'mǔ', 'fán', 'dù', 'bì', 'zuò', 'jì', 'máo', 'jiàng', 'yìng', 'què', 'xiàn', 'xiǎn', 'wò', 'péi', 'jīng', 'súi', 'zhì', 'kùn', 'wéi', 'huái', 'tài', 'jī', 'lián', 'píng', 'xìng', 'rǎn', 'jù', 'chí', 'kǒng', 'yǔ', 'shì', 'zhuān', 'qū', 'dīu', 'yán', 'má', 'sūn', 'mín', 'fēng', 'nǎo', 'gū', 'lì', 'xī', 'yán', 'mò', 'bó', 'jí', 'qiǎ', 'zhī', 'hǔi', 'qì', 'nòng', 'pīng', 'pāng', 'yǒng', 'chéng', 'yìn', 'wēi', 'shì', 'jí', 'què', 'yǐn', 'yuán', 'lì', 'luàn', 'yā', 'yàn', 'hàn', 'guān', 'gūi', 'jiāng', 'háng', 'wū', 'hòu', 'tāng', 'yuán', 'dàn', 'zhēng', 'jǐn', 'hù', 'yà', 'shén', 'jí', 'shú', 'zhǐ', 'cǎi', 'shā', 'yóu', 'shēn', 'biāo', 'jiān', 'yì', 'wǎng', 'zhuàng', 'lv̀', 'líu', 'lā', 'gé', 'liáng', 'àn', 'kuān', 'xī', 'jì', 'mì', 'fù', 'hán', 'jiāo', 'yí', 'qiáo', 'chá', 'gǔ', 'hǔ', 'jí', 'qīn', 'fǎn', 'lv̀', 'tǒng', 'yì', 'qǔ', 'shòu', 'jǐn', 'dǎo', 'réng', 'lìng', 'shè', 'zǐ', 'yóu', 'tái', 'yè', 'bō', 'dài', 'zào', 'qí', 'shén', 'jià', 'rèn', 'wēi', 'fèn', 'lèi', 'yì', 'bèi', 'jìn', 'pō', 'cā', 'líng', 'fú', 'zhì', 'kǔ', 'zhí', 'hū', 'jiǎ', 'mèng', 'yú', 'jī', 'tíng', 'jiāng', 'tǎng', 'zūn', 'ǒu', 'ěr', 'cháng', 'gè', 'hé', 'fù', 'yóu', 'chéng', 'shāo', 'sēn', 'kē', 'jǐn', 'fǒu', 'mù', 'zhòng', 'yōu', 'chǎo', 'xī', 'chuán', 'shāng', 'zhǎn', 'xìu', 'shì', 'yáng', 'yā', 'gū', 'kē', 'zhú', 'fù', 'guàng', 'sù', 'zào', 'jī', 'zhōu', 'hé', 'fàn', 'huó', 'wèi', 'líu', 'zhī', 'mìng', 'jīu', 'qióng', 'jì', 'shōu', 'gǎi', 'biàn', 'zhǎi', 'xiào', 'chuāng', 'làng', 'lì', 'ào', 'hǎi', 'sàn', 'dǔ', 'gōng', 'jǐng', 'xiāo', 'yāo', 'qiāo', 'zhěng', 'sù', 'zhí', 'liào', 'tián', 'lǎn', 'qiáng', 'zēng', 'zán', 'ké', 'xián', 'pǐn', 'ruǎn', 'zhēn', 'rùn', 'gài', 'jìng', 'jìng', 'zhāng', 'tóng', 'bǎo', 'shū', 'jì', 'duàn', 'tǎo', 'liǎ', 'xīn', 'xīu', 'shī', 'xǔ', 'lùn', 'fǎng', 'zhèng', 'píng', 'zú', 'huò', 'bù', 'yì', 'shēn', 'yuē', 'jì', 'chéng', 'wú', 'jì', 'xiáng', 'yè', 'wù', 'shùn', 'dùn', 'pí', 'zǔ', 'xì', 'zhī', 'yù', 'gāng', 'yào', 'jué', 'yǔn', 'guāng', 'shì', 'jì', 'kè', 'miǎn', 'yán', 'hé', 'xù', 'là', 'rù', 'quán', 'qī', 'dá', 'jù', 'yǎng', 'nài', 'dài', 'hù', 'nèi', 'lián', 'nóng', 'rēng', 'fú', 'shòu', 'bèn', 'kuò', 'liáo', 'cāi', 'zhí', 'yáng', 'bàn', 'rǎo', 'lián', 'pìn', 'pī', 'jiàn', 'zhū', 'jì', 'hóu', 'liàng', 'tán', 'wēn', 'yí', 'zhé', 'yìng', 'shí', 'chù', 'qiān', 'dù', 'gòu', 'shěng', 'kuàng', 'shī', 'shī', 'suān', 'liáng', 'xiàng', 'jǐng', 'jiǎn', 'quē', 'zhù', 'fèn', 'xǐng', 'zàn', 'jiǎng', 'shǔ', 'mào', 'nuǎn', 'àn', 'jiàn', 'tái', 'bào', 'chōu', 'fū', 'féi', 'lā', 'kěn', 'měi', 'jù', 'guǎn', 'zhāo', 'xīu', 'kuò', 'xiě', 'shí', 'piān', 'qiǎo', 'jīn', 'sòu', 'dài', 'shì', 'liàng', 'jīn', 'wà', 'dāo', 'qiē', 'xiàn', 'qún', 'huá', 'yǐn', 'liè', 'zé', 'yǔ', 'jiǎo', 'bǐng', 'pàn', 'lì', 'tì', 'zhì', 'shǒu', 'chí', 'guà', 'zhǐ', 'àn', 'fān', 'jù', 'shèng', 'bì', 'shuài', 'zāng', 'qiàn', 'tǐng', 'nào', 'zhǐ', 'cǐ', 'gōng', 'tuō', 'pí', 'sǐ', 'zǔi', 'qín', 'shòu', 'diào', 'zhǎng', 'bìng', 'xìng', 'màn', 'pái', 'yōu', 'guǎng', 'fù', 'xù', 'zé', 'bài', 'huò', 'zhú', 'zhí', 'gāo', 'dǐ', 'gòu', 'fèi', 'hè', 'zá', 'zī', 'cū', 'mǎ', 'cái', 'cūn', 'lì', 'jiāo', 'zhuàn', 'yán', 'yàn', 'yǒng', 'yíng', 'piàn', 'yuè']
+    var hsk4_def = ['surname Song', 'broken', 'foundation', 'surname Lin', 'to push', 'cigarette or pipe tobacco', 'large', 'old variant of 趟[tang1]', 'mother', 'to feel vexed', 'to pass', 'surname Bi', 'seat', 'border', 'surname Mao', 'to drop', 'hard', 'variant of 確|确[que4]', 'limit', 'danger', 'to hold', 'to accompany', 'essence', 'surname Sui', 'to arrive', 'to trap', 'surname Wei', 'surname Huai', '(bound form)', 'to arouse', 'to pity', 'bottle', 'nature', 'to dye', 'at a distance of', 'spoon', 'afraid', 'variant of 歟|欤[yu2]', 'old variant of 柿[shi4]', 'for a particular person, occasion, purpose', 'surname Ou', 'to lose', 'surname Yan', 'variant of 麻[ma2]', 'surname Sun', 'surname Min', 'luxuriant', 'to get angry', 'lone', 'Korea', 'in all cases', 'words', 'silent', 'extensive', 'to gather', 'to stop', '(possessive particle, literary equivalent of 的[de5])', 'to regret', 'to abandon', 'lane', '(onom.) ping', '(onom.) bang', 'forever', 'surname Cheng', 'surname Yin', 'surname Wei', 'type', 'namely', 'old variant of 卻|却[que4]', 'to draw (e.g. a bow)', 'circle', 'surname Li', 'in confusion or disorder', 'to press', 'to loathe', 'see 可汗[ke4 han2], 汗國|汗国[han2 guo2]', 'surname Guan', 'variant of 規|规[gui1]', 'surname Jiang', 'boat', 'variant of 污[wu1]', 'thick', 'surname Tang', 'Hara (Japanese surname)', 'crossball', 'to strive for', 'tight', 'mutual', 'Asia', 'variant of 什[shen2]', 'see 垃圾[la1 ji1]', 'cooked (of food)', 'location', '(bright) color', 'surname Sha', 'to follow', 'old name for Shanghai 上海[Shang4 hai3]', 'mark', 'strong', 'skill', 'to go (in a direction)', 'to knock against', 'n/a', 'old variant of 留[liu2]', 'see 垃圾[la1 ji1]', 'square', 'to startle', '(legal) case', 'surname Kuan', 'to cherish', 'to send', 'surname Mi', 'surname Fu', 'cold', 'to hand over', 'to doubt', 'bridge', 'short name for Chahar Province 察哈爾|察哈尔[Cha2 ha1 er3]', 'old variant of 鼓[gu3]', 'tiger', 'and', 'parent', 'contrary', 'n/a', 'bucket', '100 million', 'to take', 'to receive', 'barely', 'to transmit', 'still', 'other', 'society', 'variant of 崽[zai3]', 'oil', 'Taiwan (abbr.)', 'to be in harmony', 'to sow', 'to substitute', 'dry', '(name of states and dynasties at several different periods)', 'God', 'price', 'surname Ren', 'surname Wei', 'classifier for gifts, newspaper, magazine, papers, reports, contracts etc', 'tears', 'to recollect', '(two, three etc) -fold', 'to endure', 'to splash', 'to wipe', 'age', 'surname Fu', 'aspiration', 'bitter', 'value', 'surname Hu', 'fake', 'dream', 'pleased', 'base', 'to stop', 'will', 'to recline', 'senior', 'accidental', 'variant of 爾|尔[er3]', 'to taste', 'each', '100 ml', 'surname Fu', 'surname You', 'surname Cheng', 'somewhat', 'Mori (Japanese surname)', 'classifier for trees, cabbages, plants etc', 'to the greatest extent', 'to negate', 'to admire', 'abbr. for 眾議院|众议院[Zhong4 yi4 yuan4], House of Representatives', 'excellent', 'to quarrel', 'to breathe', 'to pass on', 'to injure', 'surname Zhan', 'handsome', 'see 李适[Li3 Kuo4]', 'ocean', '(particle equivalent to 啊 after a vowel, expressing surprise or doubt)', 'estimate', 'branch of study', 'to pursue', 'father', 'to stroll', 'fast', 'to make', 'to amass', 'continent', 'surname He', 'pattern', 'to live', 'taste', 'to flow', 'surname Zhi', 'life', 'after all', 'poor', 'to cross a river', 'to receive', 'to change', 'variant of 遍[bian4]', 'narrow', 'variant of 傚|效[xiao4]', 'old variant of 窗[chuang1]', 'wave', 'example', 'proud', 'surname Hai', 'variant of 散[san4]', 'to stop up', 'to provide', 'to alert', 'to disappear', 'to invite', 'to hit', 'exactly', 'to model (a figure) in clay', 'to plant', 'material', 'to fill or stuff', 'variant of 懶|懒[lan3]', 'variant of 牆|墙[qiang2], wall', 'to increase', 'variant of 咱[zan2]', 'sound of sighing', 'surname Xian', 'article', 'soft', 'needle', 'to moisten', 'general', 'to compete', 'unexpectedly', 'surname Zhang', 'surname Tong', 'Bulgaria', 'to lose', 'surname Ji', 'to break', 'to invite', 'two (colloquial equivalent of 兩個|两个)', 'surname Xin', 'surname Xiu', 'lion', 'surname Xu', 'abbr. for 論語|论语[Lun2 yu3], The Analects (of Confucius)', 'to visit', 'to admonish', 'to discuss', 'race', 'to catch', 'ministry', 'to translate', 'old variant of 深[shen1]', 'to weigh in a balance or on a scale', 'surname Ji', 'sincere', 'not to have', 'already', 'detailed', 'page', 'mistake', 'to obey', 'to stop', 'surname Pi', 'surname Zu', 'thin or slender', 'to weave', 'to advance', 'steel', 'key', 'to cut short', 'just', 'light', 'surname Shi', 'to continue', 'to be able to', 'to excuse sb', 'salt', 'small box', 'to continue', 'old variant of 辣[la4]', 'to enter', 'surname Quan', 'variant of 戚[qi1]', 'surname Da', 'tool', 'to raise (animals)', 'capable of enduring', 'surname Dai', 'a household', 'inside', 'surname Lian', 'surname Nong', 'to throw', 'surname Fu', 'to sell', 'stupid', 'enlarge', 'to chat', 'to guess', 'office', 'abbr. for 揚州|扬州[Yang2 zhou1]', 'to disguise oneself as', 'to disturb', 'to ally', 'to engage (a teacher etc)', 'to ascertain', 'to imbue', 'hog', 'skill', 'monkey', 'to show understanding', 'surname Tan', 'surname Wen', 'friendship', 'to break (e.g. stick or bone)', 'to reflect (light)', 'to eat', 'to reside', "to sign one's name", 'tripe', 'enough (sufficient)', 'to save', 'moreover', 'to lose', 'variant of 濕|湿[shi1]', 'sour', 'the five Liang of the Sixteen Kingdoms, namely: Former Liang 前涼|前凉 (314-376), Later Liang 後涼|后凉 (386-403), Northern Liang 北涼|北凉 (398-439), Southern Liang 南涼|南凉 (397-414), Western Liang 西涼|西凉 (400-421)', 'elephant', 'surname Jing', 'to lower', 'deficiency', 'to make known', 'to exert oneself (bound form)', 'to wake up', 'temporary', 'prize', 'heat', 'appearance', 'old variant of 暖[nuan3]', 'variant of 暗[an4]', 'key (on a piano or computer keyboard)', 'to lift', 'to hold', 'to draw out', 'skin', 'fat', 'to pull', 'old variant of 肯[ken3]', 'the Americas', 'to resist', 'variant of 管[guan3]', 'to recruit', 'shy', 'to enclose', 'blood', 'to ascend in light steps', 'sheet', 'opportunely', 'towel', 'cough', 'pouch', 'to explain', 'to measure', 'surname Jin', 'socks', 'surname Dao', 'to cut', 'to envy', 'variant of 群[qun2]', 'to row', 'old variant of 飲|饮[yin3]', 'to arrange', '(conjunction used to express contrast with a previous clause) but', 'feather', 'dumplings with meat filling', 'round flat cake', 'to judge', 'surname Li', 'to substitute for', 'system', 'head', 'to hold', 'to hang or suspend (from a hook etc)', 'finger', 'to press', 'to turn over', 'theatrical work (play, opera, TV series etc)', 'to remain', 'money', 'surname Shuai', 'viscera', 'to apologize', 'straight', 'variant of 鬧|闹[nao4]', 'to stop', 'this', 'meritorious deed or service', 'to shed', 'spleen', 'to die', 'mouth', 'guqin or zither, cf 古琴[gu3 qin2]', 'to teach', 'to fall', 'palm of the hand', 'and', 'trusted', 'free', 'a row', 'remote', 'surname Guang', 'to bear', 'order', 'duty', 'to defeat', 'goods', 'method', 'character', 'ointment', '(equivalent to 的 as possessive particle)', 'to buy', 'surname Fei', 'surname He', 'variant of 雜|杂[za2]', 'resources', 'coarse', 'weight', 'material', 'village', 'surname Li', 'proud', 'to earn', 'to grind', 'variant of 驗|验[yan4]', 'brave', 'to beat', 'to cheat', 'to inspect']
+
+
+		var randomDiv = document.getElementById("myRandomDiv");
+		var randomPinyinDiv = document.getElementById("myRandomPinyinDiv");
+		var randomDefDiv = document.getElementById("myRandomDefDiv");
+		randomDiv.innerHTML = "四"; 
+		randomPinyinDiv.innerHTML= "sì";
+		randomDefDiv.innerHTML= "Four";
+		//一二三四五Yī'èrsānsìwǔ
+
+
+		document.getElementById("myButton").addEventListener("click", function() {
+			  randomIndex = Math.ceil((Math.random()*hsk4.length-1));
+			  newText = hsk4[randomIndex];
+			  newTextPinyin = hsk4_pinyin[randomIndex];
+			  newTextDef = hsk4_def[randomIndex];
+			  randomDiv.innerHTML = newText;
+			  randomPinyinDiv.innerHTML = newTextPinyin;
+			  randomDefDiv.innerHTML = newTextDef;
+		});
+	</script> 
+  </body>
+</html>
+
+
+
+   
